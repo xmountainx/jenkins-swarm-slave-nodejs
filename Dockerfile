@@ -28,4 +28,4 @@ RUN npm install -g jsonapitest
 # Update JSLINT
 RUN npm install -g jslint
 
-# docker build --force-rm=true -t staging-repo.iheha.com/$REPO_GROUP/$REPO_NAME:$PIPELINE_VERSION . 
+# dsocker build -t mountain/jenkins-swarm-slave-nodejs .
